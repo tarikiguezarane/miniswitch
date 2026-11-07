@@ -11,7 +11,7 @@ Règle : chaque jour, faire la première étape non cochée, puis la cocher. Une
 Uniquement des cartes, clés et données de test. Chaque algorithme cryptographique est validé par des vecteurs de test.
 
 ## Semaine 1 – ISO 8583 et HSM logiciel
-- [ ] Jour 1 – Structure Maven multi-modules : `iso8583`, `hsm`, `terminal`, `acquirer`, `switch`, `issuer`, `docs/`, licence MIT, README avec schéma du flux.
+- [x] Jour 1 – Structure Maven multi-modules : `iso8583`, `hsm`, `terminal`, `acquirer`, `switch`, `issuer`, `docs/`, licence MIT, README avec schéma du flux.
 - [ ] Jour 2 – Bibliothèque ISO 8583 : MTI, bitmap primaire et secondaire, encodage/décodage + tests.
 - [ ] Jour 3 – Définition des champs (fixe, LLVAR, LLLVAR ; n, an, b), packager pour 0100/0110, 0200/0210, 0400/0410, 0800/0810 + tests.
 - [ ] Jour 4 – Transport TCP avec en-tête de longueur sur 2 octets (Netty), client et serveur génériques.
