@@ -1,0 +1,22 @@
+# --- OS / editors ---
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# --- Maven ---
+target/
+dependency-reduced-pom.xml
+
+# --- Java ---
+*.class
+*.log
+hs_err_pid*
+
+# --- Local data, keys and secrets (test keys only are ever committed, never real ones) ---
+.env
+*.mv.db
+*.trace.db
+*.jks
+*.p12
